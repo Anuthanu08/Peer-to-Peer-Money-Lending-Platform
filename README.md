@@ -36,4 +36,14 @@ Two machine learning models are implemented:
 1. Interest Rate Prediction: A Random Forest Regressor model predicts interest rates based on borrower characteristics.
 2. Default Prediction: A Logistic Regression model predicts loan defaults, considering features such as credit score, income, and loan amount.
 
+## Datasets
+
+The datasets are taken from below:
+1. https://www.kaggle.com/datasets/adarshsng/lending-club-loan-datacsv?resource=download - Datasets for the p2p_lending database collections except
+users collection.
+2. Random user.me web api – For syntesizing data for users collection.
+3. https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download - Datasets
+for training the default on model
+The datasets are preprocessed and only the necessary features are opted to store in the collection.
+
 
